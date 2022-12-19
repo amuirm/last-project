@@ -88,13 +88,14 @@ li{
 }
 .sort{
     font-size: 32px;
+    display: flex;
+    flex-direction: column;
 }
 .list1{
     text-align: center;
 }
 .sortOneLine{
     display: flex;
-    flex-direction: row;
 }
 .sortTwoLine{
     display: flex;
@@ -115,4 +116,7 @@ li{
 .port_screen_skill{
     font-size: 56px;
     margin-bottom: 50px;
+}
+.index-btn{
+    margin-top: 70px;
 }
